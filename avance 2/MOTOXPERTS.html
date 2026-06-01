@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="MotoXPerts">
+    <!-- title: El título que se muestra en la pestaña del navegador -->
+    <link rel="stylesheet" href="css/style.css">
+    <title>MotoXPerts | Catálogo de Motocicletas</title>
+</head>
+<body>
+    <!-- header: es donde va el logo y la barra de navegación -->
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <h1>MOTO XPERTS</h1>
+            </div>
+            <nav>
+                <a href="#">Inicio</a>
+                <a href="#">Catálogo</a>
+                <a href="#">Accesorios</a>
+                <a href="#">Contacto</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Section: es una sección del contenido, normalmente con un encabezado (h2, h3...) -->
+        <section class="banner">
+            <h2>Catálogo de Modelos deportivos</h2>
+            <p>los kilometros no se cuentan, SE VIVEN</p>
+        </section> 
+        
+    <!-- Aside: es un contenido no principal puesto al lateral de la web -->
+        <aside>
+            <h3>Filtrar Por</h3>
+            <div class="filter">
+                <label for="tipo">Marca</label>
+                <select id="tipo">
+                    <option value="Todas">Todas</option>
+                    <option value="Yamaha">Yamaha</option>
+                    <option value="Honda">Honda</option>
+                    <option value="Suzuki">Suzuki</option>
+                </select>
+            </div>
+            <div class="filter">
+            <br><label for="cilindrada">Cilindrada</label>
+                <select id="cilindrada">
+                    <option value="Todas">Todas</option>
+                    <option value="155-250">155cc - 250cc</option>
+                    <option value="300-600">300cc - 600cc</option>
+                    <option value="600+">Más de 600cc</option>
+                </select>
+            </div>                   
+        </aside>
+        
+        <aside>  
+            <h2>Sucursales</h2>
+            <div class="box">
+            <ul>
+                <li>Sucursal Centro</li>
+                <li>Sucursal Norte</li>
+                <li>Sucursal Sur</li>
+            </ul>
+            </div>
+        </aside>
+
+    <!-- Main: es el contenido principal de la página -->    
+    <main>
+    <article class="stories-container"> 
+        
+        <div class="moto-card">
+            <div class="moto-img">
+                <img src="https://www.yamahamotos.cl/wp-content/uploads/2025/02/r15_gris.jpg" alt="Yamaha R15 negra">
+            </div>
+            <div class="moto-info">
+                <h2>Yamaha R15</h2>
+                <p>La Yamaha R15 es una motocicleta deportiva de 155cc, perfecta para quienes buscan una primera experiencia de conducción emocionante con un diseño deportivo y tecnología avanzada.</p>
+                <div class="specs-box">
+                    <p>- motor de 149.8 cm³</p>
+                    <p>- potencia de 17 HP</p>
+                    <p>- frenos de disco con sistema de ABS</p>
+                </div>
+                <span class="price">$5,499</span>
+            </div>
+        </div>
+
+        <div class="moto-card">
+            <div class="moto-img">
+                <img src="https://motos.honda.com.ec/uploads/galeria/Colores_CB300R.jpg" alt="Honda CBR310R roja">
+            </div>
+            <div class="moto-info">
+                <h2>Honda CBR310R</h2>
+                <p>La Honda CBR310R es una motocicleta deportiva de 310cc, ideal para quienes buscan un equilibrio entre rendimiento y comodidad, con un diseño elegante y características tecnológicas.</p>
+                <div class="specs-box">
+                    <p>- motor de 310 cm³</p>
+                    <p>- potencia de 31 HP</p>
+                    <p>- frenos de disco con sistema de ABS</p>
+                </div>
+                <span class="price">$4,399</span>
+            </div>
+        </div>
+
+        <div class="moto-card">
+            <div class="moto-img">
+                <img src="https://www.kawasaki-india.com/content/dam/products/pim/studio/Resource_320148_26ZX636J_40TGN1DRF3CG_A.jpg" alt="Kawasaki Ninja ZX-6R verde">
+            </div>
+            <div class="moto-info">
+                <h2>Kawasaki Ninja ZX-6R</h2>
+                <p>La Kawasaki Ninja ZX-6R es una motocicleta deportiva de 636cc, diseñada para los amantes de la velocidad y el rendimiento puro, con un motor potente y una aerodinámica agresiva.</p>
+                <div class="specs-box">
+                    <p>- motor de 636 cm³</p>
+                    <p>- potencia de 128 HP</p>
+                    <p>- frenos de disco con sistema de ABS</p>
+                </div>
+                <span class="price">$12,999</span>
+            </div>
+        </div>
+
+         <div class="moto-card">
+            <div class="moto-img">
+                <img src="https://preview.redd.it/help-picking-color-for-suzuki-gsx-8r-v0-l6g7qdkqgjmg1.jpg?width=1024&format=pjpg&auto=webp&s=cae7043c0456be6dc3d9d33105c61d35b45599bf" alt="Honda CBR310R roja">
+            </div>
+            <div class="moto-info">
+                <h2>SUZUKI GSX-8R</h2>
+                <p>La Suzuki GSX-8R es una motocicleta deportiva de peso medio de última generación, diseñada con un carenado completo aerodinámico que equilibra de forma perfecta el rendimiento en pista con la comodidad para el uso diario. Construida sobre la misma base de ingeniería que su hermana naked (la GSX-8S)</p>
+                <div class="specs-box">
+                    <p>- motor de 4 tiempos, bicilíndrico en paralelo, DOHC</p>
+                    <p>-  83 CV (61 kW) a 8.500 rpm.</p>
+                    <p>-Sistema ABS: Equipado de serie</p>
+                </div>
+                <span class="price">$9,600</span>
+            </div>
+        </div>
+    
+
+    </article>
+
+    <!-- footer: Define el pie de página del sitio. 
+         Suele contener información de copyright, enlaces legales, redes sociales y datos de contacto. -->
+    <footer>
+        <div class="redes-sociales">
+            <a href="#">Facebook</a>
+            <a href="#">Twitter</a>
+            <a href="#">Instagram</a>
+            <span> - Contacto: info@motoxperts.com <br> - Teléfono: 2221-2859 <br> - whatsapp: 7596-5859 </span>
+            <p>&copy; 2026 MotoXPerts. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    </main>
+</body>
+
+</html>
